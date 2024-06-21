@@ -1,0 +1,116 @@
+body {
+  margin: 0%;
+}
+section {
+  background-image: linear-gradient(rgb(55, 85, 96), white, rgb(55, 85, 96));
+}
+.name {
+  font-size: 27px;
+  color: white;
+  text-decoration: none;
+  padding-left: 44px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#menu-list {
+  color: azure;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* About section */
+.container1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(138, 142, 159);
+}
+.content1 {
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  height: 39rem;
+}
+#content1-text {
+  font-size: 30px;
+  text-align: justify;
+  color: rgb(70, 74, 91);
+}
+.container2 {
+  height: 38rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(138, 142, 159);
+}
+#card-images {
+  height: 150px;
+  width: 287px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+#card-images2 {
+  height: 150px;
+  width: 287px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.card {
+  background-color: rgb(215, 220, 222);
+  border-radius: 50px;
+  width: "18rem";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(138, 142, 159);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.container3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  height: 37rem;
+}
+#social-medias > a {
+  background-color: transparent;
+  color: whitesmoke;
+}
+@media (max-width: 1000px) {
+  #content1-text {
+    font-size: 21px;
+    color: rgb(70, 74, 91);
+  }
+  .content1 {
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 39rem;
+  }
+}
+
+@media (max-width: 769px) {
+  #content1-text {
+    font-size: 17px;
+    color: rgb(70, 74, 91);
+  }
+  .content1 {
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 39rem;
+  }
+  #card-images2 {
+    height: 150px;
+    width: 144px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  #card-images {
+    height: 150px;
+    width: 144px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+  }
+  .d-flex {
+    height: 17rem;
+    padding: 20px;
+  }
+  .card-title {
+    font-size: 15px;
+  }
+}

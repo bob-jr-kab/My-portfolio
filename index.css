@@ -1,6 +1,7 @@
 body {
   background-color: #8b9ba1f9;
   margin: 0%;
+  height: 100vh;
 }
 .flexbox-container1 {
   display: flex;
@@ -64,6 +65,15 @@ body {
   width: 910px;
   margin-right: 0%;
 }
+button {
+  background-color: #8b9ba1f9;
+  border-radius: 40px;
+}
+button a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 h1 {
   color: #4d5d63f9;
   font-size: 40px;
@@ -116,4 +126,49 @@ p {
 }
 #P1 {
   color: rgb(36, 72, 86);
+}
+@media (max-width: 600px) {
+  #name {
+    font-size: 14px;
+  }
+  .item-1 {
+    height: 20px;
+  }
+
+  .item-2 {
+    font-size: 10px;
+    padding-right: 14px;
+  }
+
+  .flexbox-container1 {
+    padding-top: 50px;
+    height: 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .flexbox-container2 {
+    font-size: 70%;
+    height: 25rem;
+  }
+
+  .item-3 {
+    padding-top: 40px;
+    padding-left: 30px;
+    width: auto;
+    margin-left: -2%;
+  }
+  .item-4 {
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 20%;
+  }
+  #pic {
+    border-radius: 50%;
+    height: 100px;
+    border: 5px solid #8b9ba1f9;
+  }
+  button a {
+    color: rgb(80, 121, 155);
+  }
 }
